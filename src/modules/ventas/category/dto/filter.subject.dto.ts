@@ -4,7 +4,7 @@ import { PaginationDto } from "./pagination.dto";
 
 
 
-export class filterTeacherDto extends PaginationDto {
+export class filterSubjectDto extends PaginationDto {
 
     @IsOptional()
     @IsString(isStringValidationOptions())

@@ -2,9 +2,7 @@ import { Allow, IsBoolean, IsNotEmpty, IsNumber, IsString } from "class-validato
 import { SubjectEntity } from "../entities/subject.model";
 
 
-export  class BaseTeacherDto{
-    @Allow()
-    readonly subject:SubjectEntity
+export  class BaseSubjectDto{
     @IsString()
     @IsNotEmpty( isNotEmptyValidationOptions())
     readonly name;
